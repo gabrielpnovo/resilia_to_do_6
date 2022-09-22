@@ -1,9 +1,3 @@
-DROP TABLE tbclientes;
-DROP TABLE tbavaliacoes;
-
-alter table tbavaliacoes drop foreign key tbavaliacoes_ibfk_1;
-alter table tbavaliacoes drop foreign key tbavaliacoes_ibfk_2;
-
 CREATE DATABASE IF NOT EXISTS vitrine_virtual_todo6;
 
 USE vitrine_virtual_todo6;

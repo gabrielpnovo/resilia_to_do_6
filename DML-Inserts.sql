@@ -33,10 +33,6 @@ INSERT INTO tbprodutos (
 NOME, DESCRICAO, ID_FORNECEDOR, CATEGORIA, TAMANHO, PRECO, SUSTENTAVEL, QTD_ESTOQUE) VALUES ('blusa sm', 'blusa sem manga', 15, 'blusa', 'P', 119.90, 0, 175);
 
 # ========== TABELA CLIENTES ==========
-select * from tbclientes;
-delete from tbclientes where cpf = '11111111111';
-delete from tbclientes;
-
 INSERT INTO tbclientes (
 CPF, NOME, SOBRENOME, NACIONALIDADE, DATA_NASCIMENTO) VALUES ('00000000000', 'Joao', 'da Silva', 'Brasileira', '1964-05-20');
 
@@ -68,11 +64,6 @@ INSERT INTO tbclientes (
 CPF, NOME, SOBRENOME, NACIONALIDADE, DATA_NASCIMENTO) VALUES ('99999999999', 'Bruno', 'da Silveira', 'Brasileira', '1976-09-25');
 
 # ========== TABELA AVALIAÇÕES ==========
-select * from tbclientes;
-select * from tbprodutos;
-select * from tbavaliacoes;
-delete from tbavaliacoes;
-
 INSERT INTO tbavaliacoes (
 CPF, ID_PRODUTO, TITULO, DATA_AVALIACAO, COMENTARIO, NOTA) VALUES ('55555555555', 1, 'Produto muito bom', '2022-09-10','O produto me supreendeu mto positivamente!', 5);
 
